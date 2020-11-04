@@ -93,6 +93,9 @@ class HashTable {
 
 const hashTable = new HashTable()
 
+/*
+
+
 // hashTable.insert({ "Hobbit": "Bilbo" })
 // hashTable.insert({ "Hobbit": "Frodo" })
 // hashTable.insert({ "Wizard": "Gandalf" })
@@ -141,7 +144,7 @@ console.log(`"delete", should return Treebeard here:`, hashTable.remove("Ent"))
 console.log("the hashtable after deletion", hashTable)
 
 
-
+    * /
 
 
 /*
@@ -177,9 +180,10 @@ What is the capacity of your hash table after you have hashed all the above item
 //     map2.set(str3, 20);
 //     map2.set(str4, 10);
 
-//     console.log(map1.get(str1));
-//     console.log(map2.get(str3));
+//     console.log("map1.get(str1):", map1.get(str1));
+//     console.log("map2.get(str3):", map2.get(str3));
 // }
+
 
 /*
 //3. Demonstrate understanding of Hash maps
